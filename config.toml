@@ -54,7 +54,7 @@ theme = "hermit"
 
   [[menu.main]]
     name = "About me"
-    url = "about/"
+    url = "about"
     weight = 10
   [[menu.main]]
     name = "Blog"
