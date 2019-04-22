@@ -33,12 +33,6 @@ down** the database state to test the piece of code in question.
 > *Done!*
 
 
-```python
-def ciao():
-    pass
-```
-
-
 Do it, and you’ll most likely face walls of SQL code, hardly reusable, hard to
 read and even harder to maintain. A very tedious and error prone method. <br>
 Moreover you can encounter performance issues, especially if more tables are
@@ -128,56 +122,3 @@ system.
 * [factory_boy](http://factoryboy.readthedocs.io/en/latest/index.html)
 * [sqlalchemy](http://docs.sqlalchemy.org/en/latest/)
 * [faker](http://faker.readthedocs.io/en/master/)
-
-* [Testing](https://medium.com/tag/testing?source=post)
-* [Python](https://medium.com/tag/python?source=post)
-* [Database](https://medium.com/tag/database?source=post)
-* [Learning](https://medium.com/tag/learning?source=post)
-* [Sql](https://medium.com/tag/sql?source=post)
-
-### [Vittorio Camisa](https://medium.com/@vittorio.camisa)
-
-Software engineer, backend developer and Python enthusiast. Interested in
-microservices and DevOps practices.
-
-The problem here is if you have lots of factories or the factories use
-SubFactories (i.e. dependent models). It gets quite unwieldy then to attach the
-session to every single factory in the session fixture.
-
-A better approach might be to define each factory inside a function:
-
-    def…
-
-Thanks for your comment!
-
-As always when coding, any level of abstraction may be useful in some cases.
-
-I’m not sure your approach will make more compact or easier the tests code
-though: doing so you need to replicate the `make_...` function in every test,
-and the issue with subfactories is exactly the…
-
-Regardless whether you use Subfactories or not (I agree with the integrity
-issues, I have run into them too), the problem with attaching the session to
-every Factory instance in your system is that you need to remember to do it
-every time you add a new factory. In a very large application where you might
-have possibly dozens of models, and hence…
-
-Yes, I agree with you.
-
-I usually works with small services with an handful of tables, so I’ve not run
-in your issues, but I definitely understand.
-
-You should consider to make a PR to factoryboy itself, it would be awesome if
-sqlalchemy subfactories inherits sessions from parent factories!
-
-Great article — sadly, I am addicted to ModelMommy … but I assume its possible
-to adapt your approach somewhat?
-
-Thanks!
-
-I never heard about ModelMommy but if it’s this
-(http://model-mommy.readthedocs.io/) it’s pretty obvious you are using Django.
-
-It seems a factory object builder tool like FactoryBoy, you probably can stick
-with it!<br> I’m not very experienced in Django testing, but I suppose you can
-play around…
