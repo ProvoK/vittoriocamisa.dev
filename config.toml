@@ -1,6 +1,6 @@
 baseURL = "https://romantic-spence-51b514.netlify.com/"
 languageCode = "en-us"
-title = "Vic Space"
+title = "Vic $HOME"
 theme = "hermit"
 
 
@@ -27,7 +27,7 @@ theme = "hermit"
   # images = [""]
   themeColor = "#494f5c"
 
-  homeSubtitle = ""
+  homeSubtitle = "“Getting information off the Internet is like taking a drink from a fire hydrant.” — Mitchell Kapor"
   footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
   # bgImg = ""  # Homepage background-image URL
 
@@ -38,7 +38,7 @@ theme = "hermit"
   justifyContent = false  # Set "text-align: justify" to `.content`.
 
   # Add custom css
-  # customCSS = ["css/foo.css", "css/bar.css"]
+  customCSS = ["/css/style.css", "/css/theme-override.css"]
 
   # Social Icons
   # Check https://github.com/Track3/hermit#social-icons for more info.
@@ -53,10 +53,10 @@ theme = "hermit"
 [menu]
 
   [[menu.main]]
-    name = "About me"
+    name = "whoami"
     url = "about"
     weight = 10
   [[menu.main]]
-    name = "Blog"
+    name = "ls"
     url = "post/"
-    weight = 10
+    weight = 30
