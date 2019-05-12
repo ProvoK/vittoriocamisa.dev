@@ -6,23 +6,6 @@ theme = "hermit"
 disableAliases = true
 
 
-[mediaTypes]
-[mediaTypes."text/netlify"]
-delimiter = ""
-
-[outputFormats]
-[outputFormats.REDIR]
-mediatype = "text/netlify"
-baseName = "_redirects"
-isPlainText = true
-notAlternative = true
-[outputFormats.HEADERS]
-mediatype = "text/netlify"
-baseName = "_headers"
-isPlainText = true
-notAlternative = true
-
-
 [author]
   name = "Vittorio Camisa"
 

@@ -29,3 +29,8 @@ HUGO_VERSION = "0.55.1"
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
 
+[[redirects]]
+  from = "https://romantic-spence-51b514.netlify.com/*"
+  to = "https://romantic-spence-51b514.netlify.com/:splat"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect
