@@ -1,7 +1,7 @@
 ---
 title: 'Agile database integration tests with Python, SQLAlchemy and Factory Boy'
 date: '2019-04-22T18:52:14+02:00'
-draft: true
+draft: false
 ---
 ![](https://cdn-images-1.medium.com/max/800/1*P4nj9fJjSeJ9-c0rwSZqlg.png)
 
