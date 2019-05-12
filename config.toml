@@ -60,5 +60,5 @@ disableAliases = true
     weight = 10
   [[menu.main]]
     name = "ls"
-    url = "post/"
+    url = "post"
     weight = 30
