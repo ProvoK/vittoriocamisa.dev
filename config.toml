@@ -3,9 +3,6 @@ languageCode = "en-us"
 title = "Vic $HOME"
 theme = "hermit"
 
-disableAliases = true
-
-
 [author]
   name = "Vittorio Camisa"
 
