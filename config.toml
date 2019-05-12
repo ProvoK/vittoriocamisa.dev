@@ -50,12 +50,11 @@ theme = "hermit"
     url = "https://github.com/Provok"
 
 [menu]
-
   [[menu.main]]
     name = "whoami"
-    url = "about"
+    url = "about/"
     weight = 10
   [[menu.main]]
     name = "ls"
-    url = "post"
+    url = "post/"
     weight = 30
