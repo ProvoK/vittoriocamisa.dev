@@ -1,4 +1,4 @@
-baseURL = "https://vittoriocamisa.dev"
+baseURL = "http://vittoriocamisa.dev"
 languageCode = "en-us"
 title = "Vic"
 theme = "hermit"
