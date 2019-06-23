@@ -21,8 +21,8 @@
 			<nav id="home-nav" class="site-nav">
 				{{- range .Site.Menus.main }}
 				<a href="{{ .URL | absLangURL }}">
-					<div>
-						{{ .Name }}
+					<div class="nav-link">
+						vic@home/: {{ .Name }}
 						<span class="blinking-cursor">❚</span>
 					</div>
 				</a>

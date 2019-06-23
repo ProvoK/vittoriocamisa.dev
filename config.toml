@@ -1,6 +1,6 @@
 baseURL = "https://romantic-spence-51b514.netlify.com/"
 languageCode = "en-us"
-title = "Vic $HOME"
+title = "Vic"
 theme = "hermit"
 
 pygmentsUseClassic=false
@@ -59,6 +59,6 @@ pygmentsUseClasses=true
     url = "about/"
     weight = 10
   [[menu.main]]
-    name = "ls"
+    name = "ls /posts"
     url = "post/"
     weight = 30
