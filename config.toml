@@ -3,6 +3,10 @@ languageCode = "en-us"
 title = "Vic $HOME"
 theme = "hermit"
 
+pygmentsUseClassic=false
+pygmentsCodefences=true
+pygmentsUseClasses=true
+
 [author]
   name = "Vittorio Camisa"
 
