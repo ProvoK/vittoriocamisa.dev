@@ -1,6 +1,8 @@
 # About me
 
-I'm an eager learner, console addict software developer based in Milan, Italy.
+Hello dear internaut, you found my place!
+
+I'm Vittorio Camisa, an eager learner, console addict software developer based in Milan, Italy.
 
 I really enjoy design and develop server-side architectures, API and CLIs.
 
