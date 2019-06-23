@@ -7,6 +7,14 @@ pygmentsUseClassic=false
 pygmentsCodefences=true
 pygmentsUseClasses=true
 
+
+[privacy]
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    disable = false
+    respectDoNotTrack = true
+    useSessionStorage = true
+
 [author]
   name = "Vittorio Camisa"
 
