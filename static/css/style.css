@@ -4,7 +4,10 @@
 	-ms-animation: 1s blink step-end infinite;
 	-o-animation: 1s blink step-end infinite;
 	animation: 1s blink step-end infinite ease-in-out;
-	content: " ❚"
+	content: " ❚";
+	position: absolute;
+	margin-top: -2px;
+	margin-left: 10px;
 }
 
 .nav-link {
