@@ -9,7 +9,7 @@ I really enjoy designing and developing server-side architectures, API and CLIs.
 Interested in DevOps culture and cloud computing, I strive to automate all sorts of processes.
 
 
-# My stack
+## My stack
 
 ### Editor
 * Neovim (dotfiles on my Github!)
