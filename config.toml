@@ -7,6 +7,11 @@ pygmentsUseClassic=false
 pygmentsCodefences=true
 pygmentsUseClasses=true
 
+enableRobotsTXT = true
+canonifyURLs = true
+[permalinks]
+    post = "/blog/:title/"
+
 
 [privacy]
   [privacy.googleAnalytics]
